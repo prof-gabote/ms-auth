@@ -1,0 +1,12 @@
+spring.application.name=ms-auth
+
+server.port=8082
+
+spring.data.mongodb.uri=URL-QUE-ENTREGA-MONGO
+spring.data.mongodb.database=ms-auth-bestsupport
+
+spring.output.ansi.enabled=ALWAYS
+
+logging.level.root=INFO
+logging.level.org.springframework.web=DEBUG
+logging.pattern.console=%d{yyyy-MM-dd HH:mm:ss} - %msg%n
